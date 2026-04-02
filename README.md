@@ -122,33 +122,4 @@ This documentation is based on the project's Overview wiki page and the main HTM
 Wiki pages you might want to explore:
 - [Overview (Rupkumar-Khatua/mail)](/wiki/Rupkumar-Khatua/mail#1)
 
-### Citations
 
-**File:** docs/index.html (L1-25)
-```html
-Contact form
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact me</title>
-  <style>
-    body { font-family:sans-serif; max-width:600px; margin:2rem auto; line-height:1.5 }
-    header { text-align:center }
-    iframe { width:100%; height:600px; border:1px solid #ccc; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Drop me a line</h1>
-    <p>You can send me <strong>mail using this site</strong></p>
-  </header>
-
-  <!-- We’ll paste your Google Form iframe here in Step 3 -->
-  <section id="contact-form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct371YQ4El6g2KhNCNgjLUaeiksXC8kv2gnauiL7_pa-ivHQ/viewform?embedded=true" width="640" height="887" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </section>
-</body>
-</html>
-```
